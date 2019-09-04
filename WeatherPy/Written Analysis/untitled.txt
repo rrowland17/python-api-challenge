@@ -1,0 +1,9 @@
+Written Analysis of the Effects of Latitude on Various Aspects of Weather:
+
+I used the OpenWeather API for my dataset, which allowed me to pull information on over 500 random cities within a chosen frame of latitude and longitude. I gained the following insights after utilizing Python, Pandas, and MatPlotLib.
+
+1. Using a scatterplot to compare latitude and the maximum temperature, we are able to see a relationship between where a city is located and the max temperature. The closer the city is the equator (i.e. 0) the hotter the maximum temperature. 
+
+2. Using a second scatterplot, I compared the latitude and the average humidity. There does appear to be a relationship between a higher humidity percentage, especially in latitudes between 0 and 20 degrees. However, it is not as strong as the relationship between latitude and average temperature. 
+
+3. From the third and fourth scatterplots, we see that there is not a significant relationship between latitude and cloudiness and latitude and wind speed. 
